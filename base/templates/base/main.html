@@ -46,7 +46,7 @@
             color: #fff;
             padding: 10px;
             border-radius: 5px 5px 0 0;
-            background: linear-gradient(90deg, #EEA390 0%, #EB796F 43%, #EB796F 100%);
+            background: linear-gradient(90deg, rgba(108,155,199,1) 44%, rgba(2,0,36,1) 90%);
         }
         
         .header-bar a {
@@ -93,11 +93,12 @@
             color: #cf4949;
             font-size: 22px;
             line-height: 0;
-            transition-duration: 0.4s;
+            transition-duration: 0.2s;
         }
 
         .delete-link:hover{
             color: red;
+            font-size: 28px;
         }
 
         #search-add-wrapper{
@@ -119,10 +120,18 @@
             color: green;
         }
 
+        #a-logout{
+            transition-duration: 0.2s;
+        }
+
+        #a-logout:hover{
+            color: red;
+        }
+
         input[type=text],
         input[type=password],
         textarea{
-            border: 1px solid #EB796F;
+            border: 1px solid rgba(108,155,199,1);
             border-radius: 5px;
             padding: 10px;
             width: 90%;
@@ -134,9 +143,9 @@
         }
 
         .button{
-            border: 1px solid #EB796F;
+            border: 1px solid rgba(108,155,199,1);
             background-color: #FAFAFA;
-            color: #EB796F;
+            color: rgba(108,155,199,1);
             padding: 10px;
             font-size: 14px;
             border-radius: 5px;
@@ -146,7 +155,7 @@
         }
         
         .button:hover {
-            background-color: #EB796F;
+            background-color: rgba(108,155,199,1);
             color: white;
         }
 
